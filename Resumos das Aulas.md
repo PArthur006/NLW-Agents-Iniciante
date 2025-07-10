@@ -50,8 +50,6 @@ O CSS (Cascading Style Sheets) é usado para aplicar estilos visuais ao conteúd
 * **Propriedades:** O que queremos mudar no elemento selecionado. Ex: `color`, `font-size`, `background-color`.
 * **Valores:** O valor que a propriedade vai receber. Ex: `blue`, `16px`, `#FFFFFF`.
 
-<hr>
-
 ---
 
 ## Aula 02: Primeiros Passos com JavaScript
@@ -75,5 +73,29 @@ O CSS (Cascading Style Sheets) é usado para aplicar estilos visuais ao conteúd
   - Alterar o conteúdo de um elemento (ex: mudar um texto).
   - Mudar o estilo de um elemento (ex: adicionar ou remover uma classe CSS).
   - Reagir a eventos do usuário (ex: cliques de mouse, digitação no teclado).
+
+---
+
+## Aula 03: O Poder da Inteligência Artificial
+
+### 1. Conceitos-Chave de IA
+
+- **LLM (Large Language Model / Modelo de Linguagem de Grande Escala):** O "cérebro" da IA. É uma rede neural massiva treinada com um volume gigantesco de texto e dados, capaz de entender, gerar e interagir em linguagem humana.
+- **Agentes de IA (AI Agents):** Um sistema que utiliza um LLM para ir além de apenas responder perguntas. Um agente pode ter objetivos, acesso a ferramentas e executar tarefas de forma autônoma para resolver um problema.
+
+### 2. Engenharia de Prompt: A Arte de Conversar com a IA
+
+É a habilidade de criar instruções (prompts) claras e estratégicas para obter os resultados mais precisos e úteis de um LLM. A qualidade da entrada define a qualidade da saída.
+
+**Técnicas de Prompting:**
+
+- **One-shot Learning:** Dar **um único exemplo** no prompt para guiar a IA sobre o formato ou o tipo de resposta esperada.
+  - *Exemplo:* `"Traduza para o inglês: batata -> potato. Agora traduza: cenoura -> ?"`
+
+- **Few-shot Learning:** Fornecer **vários exemplos** para dar à IA um contexto ainda mais rico e garantir que ela siga o padrão desejado.
+  - *Exemplo:* `"fruta:maçã; cor:vermelha. fruta:banana; cor:amarela. fruta:uva; cor:?"`
+
+- **Chain of Thought (CoT) / Cadeia de Pensamento:** Instruir a IA a "pensar passo a passo" ou a explicar seu raciocínio antes de dar a resposta final. Isso melhora a lógica e a precisão em problemas complexos.
+  - *Exemplo:* `"Qual o dobro da soma de 15 e 8? Explique o cálculo passo a passo."`
 
 ---
