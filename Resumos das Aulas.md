@@ -51,3 +51,29 @@ O CSS (Cascading Style Sheets) é usado para aplicar estilos visuais ao conteúd
 * **Valores:** O valor que a propriedade vai receber. Ex: `blue`, `16px`, `#FFFFFF`.
 
 <hr>
+
+---
+
+## Aula 02: Primeiros Passos com JavaScript
+
+### 1. O Papel do JavaScript
+
+- Se o HTML é o esqueleto e o CSS é a roupa, o **JavaScript é o cérebro e os músculos**, responsável por adicionar interatividade, lógica e dinamismo a uma página web.
+
+### 2. Conceitos Fundamentais de Programação
+
+- **Variáveis:** "Caixas" ou "recipientes" na memória para armazenar dados que podem ser usados e modificados ao longo do código. Declaradas com `let` (pode mudar de valor) e `const` (valor constante).
+- **Funções:** Blocos de código reutilizáveis que executam uma tarefa específica quando são "chamados". Ajudam a organizar e modularizar o código.
+- **Lógica de Programação:** O uso de estruturas como condicionais (`if`/`else`) para que o programa possa tomar decisões e executar ações diferentes com base em certas condições.
+
+### 3. O DOM: A Ponte entre HTML e JavaScript
+
+- **DOM (Document Object Model):** É uma representação em formato de objeto de toda a estrutura de um documento HTML. O navegador cria essa "árvore" de objetos a partir do HTML.
+- **Como funciona:** O JavaScript não lê o arquivo `.html` diretamente. Ele interage com o DOM, que é uma representação "viva" da página.
+- **Interatividade:** Usando o DOM, o JavaScript pode:
+  - Encontrar elementos HTML (ex: `document.querySelector('button')`).
+  - Alterar o conteúdo de um elemento (ex: mudar um texto).
+  - Mudar o estilo de um elemento (ex: adicionar ou remover uma classe CSS).
+  - Reagir a eventos do usuário (ex: cliques de mouse, digitação no teclado).
+
+---
